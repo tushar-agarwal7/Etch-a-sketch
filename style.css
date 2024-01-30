@@ -1,0 +1,87 @@
+body{
+    background: radial-gradient(#360836 2%, transparent);
+color: rgb(224, 219, 219);
+font-family: cursive;
+
+
+
+}
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.menu{
+ 
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 10 11 50px rgb(75, 12, 12);
+    color: rgb(32, 63, 68);
+    font-size: 50px;
+}
+
+
+.eraser{
+   height: 40px;
+   width: 180px;
+   font-size: 20px;
+   margin-top: 30px;
+   font-family: cursive;
+   background-color: rgb(176, 176, 228);
+   border-radius: 10px;
+}
+.colorpicker{
+    height: 40px;
+    width: 180px;
+}
+
+.clear{
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+ margin-top: 30px;
+ background-color: rgb(176, 176, 228);
+ border-radius: 10px;
+ 
+}
+
+
+footer{
+    background-color: rgb(252, 255, 255);
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+button:hover{
+    background-color: black;
+    color: wheat;
+    transform: scale(1.15);
+    transition: transform 0.1s ease-in-out;
+}
+
+.container{
+    height: 260px;
+    width: 300px;
+    background-color:white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
